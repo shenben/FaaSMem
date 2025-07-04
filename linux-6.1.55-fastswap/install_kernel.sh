@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -eux
 apt update
 apt install -y libssl-dev libelf-dev libncurses-dev screen flex bison zip
 cp config-6.1.55-fastswapV7 .config
