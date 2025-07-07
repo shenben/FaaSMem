@@ -8,5 +8,6 @@ make modules -j$(nproc)
 make headers -j$(nproc)
 make headers_install
 make modules_install -j$(nproc)
+make modules_prepare
 make install
-reboot
+# reboot
